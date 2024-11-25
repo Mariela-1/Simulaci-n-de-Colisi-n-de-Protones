@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simulación de Colisión de Protones</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Simulación de Colisión de Protones</h1>
+        <div class="canvas-container">
+            <canvas id="collisionCanvas"></canvas>
+        </div>
+        <button onclick="startSimulation()">Iniciar Colisión</button>
+        <div class="legend">
+            <h3>Elementos de la simulación:</h3>
+            <p>🔵 Protones: Las partículas azules grandes que chocan entre sí</p>
+            <p>🟡 Partículas resultantes: Las partículas amarillas pequeñas que se crean tras la colisión</p>
+            <p>⭕ Detector de partículas: El círculo punteado gris que rodea el área de colisión</p>
+            <p>🔴 Señales del detector: Los puntos rojos que aparecen cuando una partícula atraviesa el detector</p>
+        </div>
+        <div class="detector-explanation">
+            <h3>¿Cómo funciona el detector?</h3>
+            <p>El detector es el círculo gris punteado que rodea el área donde ocurre la colisión. Cuando las partículas amarillas 
+            (resultantes de la colisión) atraviesan esta línea circular, el detector registra su paso mostrando un punto rojo brillante. 
+            Esto simula cómo los detectores reales en aceleradores de partículas registran el paso de las partículas subatómicas.</p>
+        </div>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
