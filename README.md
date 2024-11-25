@@ -17,14 +17,4 @@ Una simulación interactiva que muestra la colisión de protones y la detección
 - JavaScript
 - Canvas API
 
-## Cómo usar
-
-1. Clona el repositorio:
-```bash
-git clone https://github.com/TU-USUARIO/collision-simulation.git
-```
-
-2. Abre el archivo `index.html` en tu navegador web
-
-3. Haz clic en el botón "Iniciar Colisión" para ver la simulación
 
